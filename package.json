@@ -1,0 +1,69 @@
+{
+    "name": "SmarTo",
+    "author": "Mattia Favaron",
+    "version": "1.0.0",
+    "dependencies": {
+        "pebble-clay": "^1.0.4"
+    },
+    "keywords": ["pebble-app", "SmarTo"],
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "SmarTo",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "SMARTO_STATUS_ICON_KEY": 0,
+            "SMARTO_STATUS_TEXT_KEY": 1,
+            "SMARTO_BOOKING_KEY": 2,
+            "SMARTO_SERVER_IP": 3
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "img/app_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGES_APP_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "type": "bitmap",
+                    "name": "IMAGE_OCCUPIED",
+                    "file": "img/occupied.png"
+                },
+                {
+                    "type": "bitmap",
+                    "name": "IMAGE_AVAILABLE",
+                    "file": "img/available.png"
+                },
+                {
+                    "type": "bitmap",
+                    "name": "IMAGE_MAYBE",
+                    "file": "img/maybe.png"
+                },
+                {
+                    "type": "bitmap",
+                    "name": "IMAGE_FETCH",
+                    "file": "img/fetch.png"
+                },
+                {
+                    "type": "bitmap",
+                    "name": "IMAGE_ERROR",
+                    "file": "img/error.png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "EDB7C751-8CA1-4BDD-9B10-8D27A6BFAE26",
+        "watchapp": {
+            "watchface": false
+        }
+    }
+}
